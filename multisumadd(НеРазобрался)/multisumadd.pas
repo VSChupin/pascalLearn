@@ -17,7 +17,7 @@ begin
         halt(1);
     end;
     sum := 0;
-    While not SeekEof(f) do 
+    while not SeekEof(f) do 
     begin
         mul := 1;
         while not SeekEoln(f) do 
@@ -26,8 +26,8 @@ begin
             mul := mul * n
         end;
         readln(f);
-        sum := sum + mul; 
+        sum := sum + mul 
     end;
     close(f);
-    writeln(sum:7:5);
+    writeln(sum:5:7)
 end.
