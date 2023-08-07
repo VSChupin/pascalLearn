@@ -1,6 +1,4 @@
 ﻿Program multisumadd; 
-const 
-    filename = 'filem.txt';
 var 
     mul, sum, n: real;
     f: text;
@@ -11,7 +9,7 @@ begin
         writeln('Please specify file name');
         halt(1);
     end;
-    assign(f, filename);
+    assign(f, ParamStr(1));
     reset(f);
     if IOResult <> 0 then 
     begin 
