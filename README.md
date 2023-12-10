@@ -1,2 +1,1 @@
-# pascalLearn
-папка с выполненными заданиями (программы)
+All, what i doing in Pascal practice
